@@ -1,0 +1,15 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+
+    "isolatedModules": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+
+    "strict": true,
+    "noFallthroughCasesInSwitch": true
+  },
+}
